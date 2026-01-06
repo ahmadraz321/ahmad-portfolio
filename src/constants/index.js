@@ -1,6 +1,5 @@
 import {
   backend,
-  carrent,
   creator,
   css,
   docker,
@@ -8,7 +7,6 @@ import {
   git,
   html,
   javascript,
-  jobit,
   mobile,
   mongodb,
   nodejs,
@@ -16,7 +14,6 @@ import {
   redux,
   tailwind,
   threejs,
-  tripguide,
   typescript,
   web,
 } from "../assets";
@@ -171,80 +168,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Ahmad proved me wrong.",
+    name: "Matthew Yau",
+    designation: "CEO & Founder",
+    company: "RethinkerLab",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Ahmad does.",
+    name: "Emmanuel Neuraz",
+    designation: "Finance & Business Partner",
+    company: "Lumaya SA",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Ahmad optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Shaun Eck",
+    designation: "Chief Advisory Officer",
+    company: "Quantus Group",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "QA TAX",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-driven tax strategy platform featuring interactive tax optimization tools that generate real-time savings forecasts (up to 30% tax reduction). Includes a gamified course system with AI-powered content parsing, increasing course completion by 45% and reducing manual data entry by 70%. Integrated Sonnet AI chatbot for real-time guidance, reducing support requests by 35%.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -252,12 +207,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ai",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "/qa-tax.png",
+    source_code_link: "https://dev.qompound.com",
+  },
+  {
+    name: "Lumaya",
+    description:
+      "Business selling platform in Switzerland with comprehensive admin dashboard for business verification, listing management, and user access control. Integrated Verif API for identity verification and Skribble e-signature for secure NDA agreements. Features AI-powered chatbot for real-time support, improving user engagement and reducing admin workload by 40%.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/lumaya.png",
+    source_code_link: "https://lumaya.ch",
+  },
+  {
+    name: "Qhub Tax",
+    description:
+      "AI-driven tax strategy engine that pulls real-time client data via HubSpot API, generating automated savings suggestions and financial forecasts. Developed a multi-channel content automation suite using Perplexity AI for data scraping, leveraging OpenAI. Implemented a RAG (Retrieval-Augmented Generation) based knowledge base to provide precise, context-aware project documentation and internal support.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/qai-tax.png",
+    source_code_link: "",
   },
 ];
 
